@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 0.9 -> 4.
     // const randomNumber1 = Math.floor(Math.random() * maleNames.length);
     // display.innerHTML = maleNames[Math.floor(Math.random() * maleNames.length)];
-    const times = input.value
+    const times = input.value || 3
 
     for (let i = 0; i < times; i++) {
       let randomName
